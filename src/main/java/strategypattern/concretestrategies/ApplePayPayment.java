@@ -1,8 +1,8 @@
 package strategypattern.concretestrategies;
 
-import strategypattern.strategy.PaymentStrategy;
+import strategypattern.strategy.IPaymentStrategy;
 
-public class ApplePayPayment implements PaymentStrategy {
+public class ApplePayPayment implements IPaymentStrategy {
     private String appleId;
 
     public ApplePayPayment(String appleId) {

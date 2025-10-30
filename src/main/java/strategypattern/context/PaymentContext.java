@@ -1,11 +1,11 @@
 package strategypattern.context;
 
-import strategypattern.strategy.PaymentStrategy;
+import strategypattern.strategy.IPaymentStrategy;
 
 public class PaymentContext {
-    private PaymentStrategy strategy;
+    private IPaymentStrategy strategy;
 
-    public void setPaymentStrategy(PaymentStrategy strategy) {
+    public void setPaymentStrategy(IPaymentStrategy strategy) {
         this.strategy = strategy;
     }
 

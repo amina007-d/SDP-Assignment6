@@ -1,5 +1,5 @@
 package strategypattern.strategy;
 
-public interface PaymentStrategy {
+public interface IPaymentStrategy {
     void pay(float amount);
 }

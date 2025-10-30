@@ -1,8 +1,8 @@
 package strategypattern.concretestrategies;
 
-import strategypattern.strategy.PaymentStrategy;
+import strategypattern.strategy.IPaymentStrategy;
 
-public class KaspiPayPayment implements PaymentStrategy {
+public class KaspiPayPayment implements IPaymentStrategy {
     private String phoneNumber;
 
     public KaspiPayPayment(String phoneNumber) {
